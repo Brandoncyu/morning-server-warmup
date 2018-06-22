@@ -1,0 +1,30 @@
+{
+  "name": "morning-server-warmup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandoncyu/morning-server-warmup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandoncyu/morning-server-warmup/issues"
+  },
+  "homepage": "https://github.com/Brandoncyu/morning-server-warmup#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
